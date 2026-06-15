@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 1. Data Prep",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/data_prep.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: 2. EDA",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/eda.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: 3. Train Model",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/train_model.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

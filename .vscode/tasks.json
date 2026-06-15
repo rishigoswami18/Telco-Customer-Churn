@@ -1,0 +1,61 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "1. Run Data Prep",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "src/data_prep.py"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "2. Run EDA",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "src/eda.py"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "3. Run Model Training",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "src/train_model.py"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run Full Pipeline",
+            "dependsOn": [
+                "1. Run Data Prep",
+                "2. Run EDA",
+                "3. Run Model Training"
+            ],
+            "dependsOrder": "sequence",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}

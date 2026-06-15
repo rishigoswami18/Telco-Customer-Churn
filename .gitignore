@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+artifacts/models/*.joblib
+artifacts/metrics/*.json
+data/processed/*.db

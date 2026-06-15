@@ -1,0 +1,16 @@
+feature,importance
+cat__Contract_Month-to-month,0.12361025121344325
+cat__PaymentMethod_Electronic check,0.08019827094773224
+cat__TechSupport_No,0.07766171791878071
+num__tenure,0.07582804050186605
+cat__OnlineSecurity_No,0.07563532276956979
+num__TotalCharges,0.05063865928441845
+cat__Contract_Two year,0.0481226240391289
+num__MonthlyCharges,0.04047112485846778
+cat__InternetService_Fiber optic,0.03312419742831016
+cat__tenure_bucket_0-12 months,0.031441391033241464
+cat__OnlineSecurity_Yes,0.024932268055216235
+cat__Contract_One year,0.022740583838842875
+cat__OnlineBackup_No,0.020619168085499476
+cat__PaperlessBilling_No,0.020385122597882832
+cat__PaperlessBilling_Yes,0.02015664025483968
